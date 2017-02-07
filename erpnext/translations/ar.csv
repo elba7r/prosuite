@@ -1494,7 +1494,7 @@ DocType: Purchase Receipt,PREC-,PREC-
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +16,Bank Accounts,الحسابات المصرفية
 ,Bank Reconciliation Statement,بيان تسوية البنك
 DocType: Address,Lead Name,اسم مبادرة البيع
-,POS,نقطة بيع
+,POS,نقطة البيع
 DocType: C-Form,III,الثالث
 apps/erpnext/erpnext/config/stock.py +294,Opening Stock Balance,رصيد الفتح للمخزون
 apps/erpnext/erpnext/stock/doctype/item_attribute/item_attribute.py +51,{0} must appear only once,{0} يجب أن تظهر مرة واحدة فقط
