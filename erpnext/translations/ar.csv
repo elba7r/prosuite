@@ -750,7 +750,7 @@ The tax rate you define here will be the standard tax rate for all **Items**. If
 
 #### Description of Columns
 
-1. Calculation Type: 
+1. Calculation Type:
     - This can be on **Net Total** (that is the sum of basic amount).
     - **On Previous Row Total / Amount** (for cumulative taxes or charges). If you select this option, the tax will be applied as a percentage of the previous row (in the tax table) amount or total.
     - **Actual** (as mentioned).
@@ -761,19 +761,19 @@ The tax rate you define here will be the standard tax rate for all **Items**. If
 6. Amount: Tax amount.
 7. Total: Cumulative total to this point.
 8. Enter Row: If based on ""Previous Row Total"" you can select the row number which will be taken as a base for this calculation (default is the previous row).
-9. Is this Tax included in Basic Rate?: If you check this, it means that this tax will not be shown below the item table, but will be included in the Basic Rate in your main item table. This is useful where you want give a flat price (inclusive of all taxes) price to customers.","قالب الضرائب القياسية التي يمكن تطبيقها على جميع عمليات البيع. يمكن أن يحتوي هذا القالب قائمة رؤساء الضريبية، وكذلك غيرهم من رؤساء حساب / الدخل مثل ""شحن""، ""التأمين""، ""معالجة""، وغيرها 
+9. Is this Tax included in Basic Rate?: If you check this, it means that this tax will not be shown below the item table, but will be included in the Basic Rate in your main item table. This is useful where you want give a flat price (inclusive of all taxes) price to customers.","قالب الضرائب القياسية التي يمكن تطبيقها على جميع عمليات البيع. يمكن أن يحتوي هذا القالب قائمة رؤساء الضريبية، وكذلك غيرهم من رؤساء حساب / الدخل مثل ""شحن""، ""التأمين""، ""معالجة""، وغيرها
 
- #### ملاحظة 
+ #### ملاحظة
 
  معدل الضريبة لك تعريف هنا سوف يكون معدل الضريبة موحد لجميع الأصناف ** **. إذا كانت هناك بنود ** ** التي لها أسعار مختلفة، وأنها يجب أن يضاف في * الضرائب البند ** الجدول في البند ** ** الرئيسي.
 
- #### وصف الأعمدة 
+ #### وصف الأعمدة
 
- 1. نوع الحساب: 
+ 1. نوع الحساب:
  - وهذا يمكن أن يكون على ** صافي إجمالي ** (وهذا هو مجموع المبلغ الأساسي).
  - ** في الصف السابق الكل / المكونات ** (للضرائب أو رسوم التراكمية). إذا قمت بتحديد هذا الخيار، سيتم تطبيق الضريبة كنسبة مئوية من الصف السابق (في الجدول الضرائب) كمية أو المجموع.
  - ** ** الفعلية (كما ذكر).
- 2. رئيس الحساب: حساب دفتر الأستاذ والتي بموجبها سيتم حجز هذه الضريبة 
+ 2. رئيس الحساب: حساب دفتر الأستاذ والتي بموجبها سيتم حجز هذه الضريبة
  3. مركز التكلفة: إذا الضرائب / الرسوم هو الدخل (مثل الشحن) أو حساب فإنه يحتاج إلى أن يتم الحجز مقابل مركز التكلفة.
  4. الوصف: وصف الضريبية (التي ستتم طباعتها في الفواتير / الاقتباس).
  5. معدل: معدل الضريبة.
@@ -979,7 +979,7 @@ apps/erpnext/erpnext/accounts/doctype/c_form/c_form.py +30,"Row {0}: Invoice {1}
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +121,Row {0}: Payment against Sales/Purchase Order should always be marked as advance,صف {0}: الدفع مقابل مبيعات / طلب شراء ينبغي دائما أن تكون علامة مسبقا
 apps/erpnext/erpnext/setup/setup_wizard/industry_type.py +16,Chemical,مادة كيميائية
 DocType: Salary Component Account,Default Bank / Cash account will be automatically updated in Salary Journal Entry when this mode is selected.,وسيتم تحديث الافتراضي حساب البنك / النقدية تلقائيا في الراتب إدخال دفتر اليومية عند تحديد هذا الوضع.
-apps/erpnext/erpnext/schools/doctype/grading_structure/grading_structure.py +24,"The intervals for Grade Code {0} overlaps with the grade intervals for other grades. 
+apps/erpnext/erpnext/schools/doctype/grading_structure/grading_structure.py +24,"The intervals for Grade Code {0} overlaps with the grade intervals for other grades.
                     Please check intervals {0} and {1} and try again",وتيرة كود العلمية {0} يتداخل مع فترات الصف للصفوف الأخرى. يرجى التحقق من فترات {0} و {1} وحاول مرة أخرى
 DocType: BOM,Raw Material Cost(Company Currency),الخام المواد التكلفة (شركة العملات)
 apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +732,All items have already been transferred for this Production Order.,كل الأصناف قد تم ترحيلها من قبل لأمر الانتاج هذا.
@@ -2268,7 +2268,7 @@ The tax rate you define here will be the standard tax rate for all **Items**. If
 
 #### Description of Columns
 
-1. Calculation Type: 
+1. Calculation Type:
     - This can be on **Net Total** (that is the sum of basic amount).
     - **On Previous Row Total / Amount** (for cumulative taxes or charges). If you select this option, the tax will be applied as a percentage of the previous row (in the tax table) amount or total.
     - **Actual** (as mentioned).
@@ -2280,19 +2280,19 @@ The tax rate you define here will be the standard tax rate for all **Items**. If
 7. Total: Cumulative total to this point.
 8. Enter Row: If based on ""Previous Row Total"" you can select the row number which will be taken as a base for this calculation (default is the previous row).
 9. Consider Tax or Charge for: In this section you can specify if the tax / charge is only for valuation (not a part of total) or only for total (does not add value to the item) or for both.
-10. Add or Deduct: Whether you want to add or deduct the tax.","قالب الضرائب القياسية التي يمكن تطبيقها على جميع المعاملات شراء. يمكن أن يحتوي هذا القالب قائمة رؤساء الضريبية، وكذلك غيرهم من رؤساء حساب مثل ""شحن""، ""التأمين""، ""معالجة""، وغيرها 
+10. Add or Deduct: Whether you want to add or deduct the tax.","قالب الضرائب القياسية التي يمكن تطبيقها على جميع المعاملات شراء. يمكن أن يحتوي هذا القالب قائمة رؤساء الضريبية، وكذلك غيرهم من رؤساء حساب مثل ""شحن""، ""التأمين""، ""معالجة""، وغيرها
 
- #### ملاحظة 
+ #### ملاحظة
 
  معدل الضريبة التي تحدد هنا سوف يكون معدل الضريبة موحد لجميع الأصناف ** **. إذا كانت هناك بنود ** ** التي لها أسعار مختلفة، وأنها يجب أن يضاف في * الضرائب البند ** الجدول في البند ** ** الرئيسي.
 
- #### وصف الأعمدة 
+ #### وصف الأعمدة
 
- 1. نوع الحساب: 
+ 1. نوع الحساب:
  - وهذا يمكن أن يكون على ** صافي إجمالي ** (وهذا هو مجموع المبلغ الأساسي).
  - ** في الصف السابق الكل / المكونات ** (للضرائب أو رسوم التراكمية). إذا قمت بتحديد هذا الخيار، سيتم تطبيق الضريبة كنسبة مئوية من الصف السابق (في الجدول الضرائب) كمية أو المجموع.
  - ** ** الفعلية (كما ذكر).
- 2. رئيس الحساب: حساب دفتر الأستاذ والتي بموجبها سيتم حجز هذه الضريبة 
+ 2. رئيس الحساب: حساب دفتر الأستاذ والتي بموجبها سيتم حجز هذه الضريبة
  3. مركز التكلفة: إذا الضرائب / الرسوم هو الدخل (مثل الشحن) أو حساب فإنه يحتاج إلى أن يتم الحجز مقابل مركز التكلفة.
  4. الوصف: وصف الضريبية (التي ستتم طباعتها في الفواتير / الاقتباس).
  5. معدل: معدل الضريبة.
@@ -2494,7 +2494,7 @@ Examples:
 1. Ways of addressing disputes, indemnity, liability, etc.
 1. Address and Contact of your Company.","الشروط والأحكام التي يمكن أن تضاف إلى المبيعات والمشتريات القياسية.
 
- أمثلة: 
+ أمثلة:
 
  1. صلاحية العرض.
  1. شروط الدفع (مقدما، وعلى الائتمان، وجزء مسبقا الخ).
@@ -2503,7 +2503,7 @@ Examples:
  1. الضمان إن وجدت.
  1. عودة السياسة.
  1. شروط الشحن، إذا كان ذلك ممكنا.
- 1. سبل معالجة النزاعات، التعويض، والمسؤولية، الخ 
+ 1. سبل معالجة النزاعات، التعويض، والمسؤولية، الخ
  1. معالجة والاتصال من الشركة الخاصة بك."
 DocType: Attendance,Leave Type,ترك نوع
 apps/erpnext/erpnext/controllers/stock_controller.py +190,Expense / Difference account ({0}) must be a 'Profit or Loss' account,"حساب / حساب الفرق ({0}) يجب أن يكون الربح أو الخسارة ""حساب"
@@ -2830,7 +2830,7 @@ apps/erpnext/erpnext/buying/doctype/request_for_quotation/request_for_quotation.
 DocType: Opportunity,OPTY-,OPTY-
 apps/erpnext/erpnext/hr/doctype/leave_block_list/leave_block_list.py +19,Date is repeated,التاريخ متكرر
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +27,Authorized Signatory,المفوض بالتوقيع
-apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +206,Leave approver must be one of {0},"الموافق عل الاجازة يجب ان يكون واحد من 
+apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +206,Leave approver must be one of {0},"الموافق عل الاجازة يجب ان يكون واحد من
 {0}"
 DocType: Hub Settings,Seller Email,البريد الإلكتروني للبائع
 DocType: Project,Total Purchase Cost (via Purchase Invoice),مجموع تكلفة الشراء (عن طريق شراء الفاتورة)
@@ -3235,7 +3235,7 @@ DocType: Item,Default Material Request Type,افتراضي مادة نوع ال�
 apps/erpnext/erpnext/projects/doctype/project/project_dashboard.html +7,Unknown,غير معروف
 DocType: Shipping Rule,Shipping Rule Conditions,شروط قاعدة الشحن
 DocType: BOM Replace Tool,The new BOM after replacement,وBOM الجديدة بعد استبدال
-apps/erpnext/erpnext/accounts/page/pos/pos.js +631,Point of Sale,نقطة بيع
+apps/erpnext/erpnext/accounts/page/pos/pos.js +631,Point of Sale,نقطة البيع
 DocType: Payment Entry,Received Amount,المبلغ الوارد
 DocType: Payment Entry,Party Name,اسم الحزب
 DocType: Production Planning Tool,"Create for full quantity, ignoring quantity already on order",إنشاء لكمية كاملة، وتجاهل كمية بالفعل على النظام
@@ -3524,7 +3524,7 @@ apps/erpnext/erpnext/setup/setup_wizard/industry_type.py +15,Brokerage,سمسر�
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +223,Attendance for employee {0} is already marked for this day,يتم وضع علامة بالفعل الحضور لموظف {0} لهذا اليوم
 DocType: Address,Postal Code,الرمز البريدي
 DocType: Production Order Operation,"in Minutes
-Updated via 'Time Log'","في دقائق 
+Updated via 'Time Log'","في دقائق
  تحديث عبر 'وقت دخول """
 DocType: Customer,From Lead,من العميل المحتمل
 apps/erpnext/erpnext/config/manufacturing.py +13,Orders released for production.,أوامر الإفراج عن الإنتاج.
@@ -3714,7 +3714,7 @@ apps/erpnext/erpnext/controllers/recurring_document.py +133,Please find attached
 apps/erpnext/erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.py +34,Bank Statement balance as per General Ledger,ميزانية كشف الحساب البنكي وفقا لدفتر الحسابات
 DocType: Job Applicant,Applicant Name,اسم مقدم الطلب
 DocType: Authorization Rule,Customer / Item Name,الزبون/ أسم الصنف
-DocType: Product Bundle,"Aggregate group of **Items** into another **Item**. This is useful if you are bundling a certain **Items** into a package and you maintain stock of the packed **Items** and not the aggregate **Item**. 
+DocType: Product Bundle,"Aggregate group of **Items** into another **Item**. This is useful if you are bundling a certain **Items** into a package and you maintain stock of the packed **Items** and not the aggregate **Item**.
 
 The package **Item** will have ""Is Stock Item"" as ""No"" and ""Is Sales Item"" as ""Yes"".
 
@@ -3870,17 +3870,17 @@ DocType: Address Template,"<h4>Default Template</h4>
 {% if phone %}Phone: {{ phone }}&lt;br&gt;{% endif -%}
 {% if fax %}Fax: {{ fax }}&lt;br&gt;{% endif -%}
 {% if email_id %}Email: {{ email_id }}&lt;br&gt;{% endif -%}
-</code></pre>","<H4> افتراضي قالب </ H4> 
- <p> ويستخدم <a href=""http://jinja.pocoo.org/docs/templates/""> جينجا قالبي templating </A> وجميع مجالات عنوان ( بما في ذلك الحقول المخصصة إن وجدت) سوف تكون متاحة </ P> 
- <قبل> <كود> {{address_line1}} العلامة & lt؛ BR & GT؛ 
- {٪ إذا address_line2٪} {{address_line2}} العلامة & lt؛ BR & GT؛ { ENDIF٪ -٪} 
- {{مدينة}} العلامة & lt؛ BR & GT؛ 
- {٪ إذا الدولة٪} {{دولة}} العلامة & lt؛ BR & GT؛ {٪ ENDIF -٪} 
- {٪ إذا كان الرقم السري٪} PIN: {{الرقم السري}} العلامة & lt؛ BR & GT؛ {٪ ENDIF -٪} 
- {{البلاد}} العلامة & lt؛ BR & GT؛ 
- {٪ إذا كان الهاتف٪} الهاتف: {{هاتف}} العلامة & lt؛ BR & GT؛ { ٪ ENDIF -٪} 
- {٪ إذا الفاكس٪} فاكس: {{الفاكس}} العلامة & lt؛ BR & GT؛ {٪ ENDIF -٪} 
- {٪ إذا٪ email_id} البريد الإلكتروني: {{email_id}} العلامة & lt؛ BR & GT ؛ {٪ ENDIF -٪} 
+</code></pre>","<H4> افتراضي قالب </ H4>
+ <p> ويستخدم <a href=""http://jinja.pocoo.org/docs/templates/""> جينجا قالبي templating </A> وجميع مجالات عنوان ( بما في ذلك الحقول المخصصة إن وجدت) سوف تكون متاحة </ P>
+ <قبل> <كود> {{address_line1}} العلامة & lt؛ BR & GT؛
+ {٪ إذا address_line2٪} {{address_line2}} العلامة & lt؛ BR & GT؛ { ENDIF٪ -٪}
+ {{مدينة}} العلامة & lt؛ BR & GT؛
+ {٪ إذا الدولة٪} {{دولة}} العلامة & lt؛ BR & GT؛ {٪ ENDIF -٪}
+ {٪ إذا كان الرقم السري٪} PIN: {{الرقم السري}} العلامة & lt؛ BR & GT؛ {٪ ENDIF -٪}
+ {{البلاد}} العلامة & lt؛ BR & GT؛
+ {٪ إذا كان الهاتف٪} الهاتف: {{هاتف}} العلامة & lt؛ BR & GT؛ { ٪ ENDIF -٪}
+ {٪ إذا الفاكس٪} فاكس: {{الفاكس}} العلامة & lt؛ BR & GT؛ {٪ ENDIF -٪}
+ {٪ إذا٪ email_id} البريد الإلكتروني: {{email_id}} العلامة & lt؛ BR & GT ؛ {٪ ENDIF -٪}
  </ الرمز> </ PRE>"
 DocType: Salary Detail,Default Amount,المبلغ الافتراضي
 apps/erpnext/erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py +93,Warehouse not found in the system,لم يتم العثور على المستودع في النظام
@@ -4082,7 +4082,7 @@ DocType: Purchase Invoice Item,Rejected Serial No,رقم المسلسل رفض
 apps/erpnext/erpnext/accounts/doctype/fiscal_year/fiscal_year.py +80,Year start date or end date is overlapping with {0}. To avoid please set company,تاريخ بداية السنة او نهايتها متداخل مع {0}. لتجنب ذلك الرجاء تعيين الشركة
 apps/erpnext/erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py +157,Start date should be less than end date for Item {0},يجب أن يكون تاريخ البدء أقل من تاريخ انتهاء القطعة ل {0}
 DocType: Item,"Example: ABCD.#####
-If series is set and Serial No is not mentioned in transactions, then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank.","مثال: ABCD ##### 
+If series is set and Serial No is not mentioned in transactions, then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank.","مثال: ABCD #####
  إذا تم تعيين سلسلة وليس المذكورة لا المسلسل في المعاملات، سيتم إنشاء الرقم التسلسلي ثم التلقائي على أساس هذه السلسلة. إذا كنت تريد دائما أن يذكر صراحة المسلسل رقم لهذا البند. ترك هذا فارغا."
 DocType: Upload Attendance,Upload Attendance,رفع الحضور
 apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.js +113,BOM and Manufacturing Quantity are required,ويلزم BOM والتصنيع الكمية
