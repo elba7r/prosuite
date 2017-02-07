@@ -3235,7 +3235,7 @@ DocType: Item,Default Material Request Type,نوع طلب الماده الاف�
 apps/erpnext/erpnext/projects/doctype/project/project_dashboard.html +7,Unknown,غير معروف
 DocType: Shipping Rule,Shipping Rule Conditions,شروط قاعدة الشحن
 DocType: BOM Replace Tool,The new BOM after replacement,وBOM الجديدة بعد استبدال
-apps/erpnext/erpnext/accounts/page/pos/pos.js +631,Point of Sale,نقطة بيع
+apps/erpnext/erpnext/accounts/page/pos/pos.js +631,Point of Sale,نقطة البيع
 DocType: Payment Entry,Received Amount,المبلغ الوارد
 DocType: Payment Entry,Party Name,اسم الحزب
 DocType: Production Planning Tool,"Create for full quantity, ignoring quantity already on order",إنشاء لكمية كاملة، وتجاهل كمية بالفعل على النظام
@@ -3713,6 +3713,7 @@ DocType: Academic Term,Term Start Date,تاريخ بدء الشرط
 apps/erpnext/erpnext/controllers/recurring_document.py +133,Please find attached {0} #{1},تجدون طيه {0} # {1}
 apps/erpnext/erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.py +34,Bank Statement balance as per General Ledger,ميزانية كشف الحساب البنكي وفقا لدفتر الحسابات
 DocType: Job Applicant,Applicant Name,اسم مقدم الطلب
+<<<<<<< HEAD
 DocType: Authorization Rule,Customer / Item Name,العميل / اسم البند
 DocType: Product Bundle,"Aggregate group of **Items** into another **Item**. This is useful if you are bundling a certain **Items** into a package and you maintain stock of the packed **Items** and not the aggregate **Item**.
 
