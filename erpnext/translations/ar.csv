@@ -1,5 +1,5 @@
 DocType: Employee,Salary Mode,طريقة تحصيل الراتب
-DocType: Employee,Divorced,مفصول
+DocType: Employee,Divorced,مطلق
 apps/erpnext/erpnext/selling/doctype/sales_order/sales_order.py +84,Warning: Same item has been entered multiple times.,تحذير: تم إدخال البند نفسه عدة مرات
 apps/erpnext/erpnext/hub_node/doctype/hub_settings/hub_settings.py +96,Items already synced,البنود مزامنة بالفعل
 DocType: Buying Settings,Allow Item to be added multiple times in a transaction,السماح للصنف بإضافته اكثر من مرة فى نفس المعاملة
