@@ -2356,7 +2356,7 @@ DocType: Opportunity,Potential Sales Deal,المبيعات المحتملة صف
 DocType: Payment Entry,Cheque/Reference Date,شيكات / مرجع التسجيل
 DocType: Purchase Invoice,Total Taxes and Charges,مجموع الضرائب والرسوم
 DocType: Employee,Emergency Contact,الاتصال في حالات الطوارئ
-DocType: Bank Reconciliation Detail,Payment Entry,مدخا الدفع
+DocType: Bank Reconciliation Detail,Payment Entry,مدخل الدفع
 DocType: Item,Quality Parameters,معايير الجودة
 ,sales-browser,ممتصفح المبيعات
 apps/erpnext/erpnext/accounts/doctype/account/account.js +56,Ledger,دفتر الحسابات
